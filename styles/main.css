@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+section a {
+    color: maroon;
+    text-decoration: none;
+}
+
+section a:hover {
+    color: steelblue;
+}
+
+aside a {
+    color: steelblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+aside a:hover {
+    color: maroon;
+}
+
+header img {
+    float: left;
+    margin-right: 10px;
+}
+
+header h1 {
+    color: steelblue;
+    font-style: italic;
+    text-shadow: 1px 1px 2px steelblue;
+}
+
+ul, ol {
+    margin-bottom: 1.5rem; /* Increase space between list items */
+}
+
+
+footer {
+    font-size: 0.8rem;
+    text-align: center;
+}
