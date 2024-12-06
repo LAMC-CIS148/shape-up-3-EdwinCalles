@@ -17,13 +17,11 @@ h1 {
     margin: 10px 0;
     padding: 0;
 }
-
 h2 {
     font-size: 2rem;
     margin: 10px 0;
     padding: 0;
 }
-
 h3 {
     font-size: 1.75rem;
     margin: 10px 0;
@@ -58,7 +56,7 @@ header h1 {
     color: steelblue;
     font-style: italic;
     text-shadow: 1px 1px 2px steelblue;
-
+}
 
 ul, ol {
     margin: 15px;
