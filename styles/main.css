@@ -35,6 +35,11 @@ section a {
     text-decoration: none;
 }
 
+section a {
+    color: maroon;
+    text-decoration: none;
+}
+
 section a:hover {
     color: steelblue;
 }
@@ -58,7 +63,7 @@ header h1 {
     color: steelblue;
     font-style: italic;
     text-shadow: 1px 1px 2px steelblue;
-}
+
 
 ul, ol {
     margin: 15px;
