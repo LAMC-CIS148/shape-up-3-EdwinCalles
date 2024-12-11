@@ -56,9 +56,11 @@ aside a {
 	float: right;
 	width: 245px;
 	margin-left: 10px;
+}
 
 aside h2 {
 	color: maroon;
+}
 
 header img {
     float: left;
