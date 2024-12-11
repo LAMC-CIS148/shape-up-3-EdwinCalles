@@ -25,41 +25,16 @@ header h1 {
     text-shadow: 1px 1px 2px steelblue;
 }
 
-h1 {
-    color: maroon;
-}
-
-h2 {
+h2, h3 {
     color: maroon;
     margin: 10px 0;
 }
-
-h3 {
-    color: maroon;
-    margin: 10px 0;
-}
-
-p, blackquote {
-    color: black;
-
-a {
-    color: steelblue;
-    text-decoration: none;
-}
-
-    a:hover {
-        color: darkred;
-    }
 
 .content {
     display: flex;
     justify-content: space-between;
 }
 
-    aside h2{
-        color: maroon;
-    }
-    
 aside {
     width: 245px;
     margin-right: 20px;
@@ -81,10 +56,6 @@ section {
 aside h2 {
     color: maroon;
 }
-
-    li {
-        color: black;
-    }
 
 footer {
     background-color: steelblue;
