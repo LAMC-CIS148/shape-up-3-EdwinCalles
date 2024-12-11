@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    width: 900px;
+    width: 1200px;
     margin: 0 auto;
     border: 2px solid steelblue;
     box-shadow: 10px 10px 10px black;
@@ -21,11 +21,13 @@ h2 {
     font-size: 2rem;
     margin: 10px 0;
     padding: 0;
+    color: maroon;
 }
 h3 {
     font-size: 1.75rem;
     margin: 10px 0;
     padding: 0;
+    color: maroon;
 }
 
 section a:hover {
@@ -45,6 +47,19 @@ aside a {
     text-decoration: none;
 }
 
+#sidebar1 {
+	float: left;
+	width: 245px;
+}
+
+#sidebar2 {
+	float: right;
+	width: 245px;
+	margin-left: 10px;
+
+aside h2 {
+	color: maroon;
+
 header img {
     float: left;
     margin-right: 10px;
@@ -63,6 +78,7 @@ ul, ol {
 
 footer {
 	background-color: steelblue;
+	clear: both;
 
 }
 footer p {
