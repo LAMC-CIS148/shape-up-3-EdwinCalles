@@ -5,61 +5,12 @@ body {
     border: 2px solid steelblue;
     box-shadow: 10px 10px 10px black;
 }
+
 header {
     background: linear-gradient(to bottom, white, lightsteelblue);
     border-bottom: 2px solid steelblue;
     padding: 10px;
     text-align: center;
-}
-
-h1 {
-    font-size: 2.5rem;
-    margin: 10px 0;
-    padding: 0;
-}
-h2 {
-    font-size: 2rem;
-    margin: 10px 0;
-    padding: 0;
-    color: maroon;
-}
-h3 {
-    font-size: 1.75rem;
-    margin: 10px 0;
-    padding: 0;
-    color: maroon;
-}
-
-section a:hover {
-    color: steelblue;
-}
-
-aside {
-    float: left;
-    width: 245px;
-    margin-right: 20px; 
-}
-
-
-aside a {
-    color: steelblue;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-#sidebar1 {
-	float: left;
-	width: 245px;
-}
-
-#sidebar2 {
-	float: right;
-	width: 245px;
-	margin-left: 10px;
-}
-
-aside h2 {
-	color: maroon;
 }
 
 header img {
@@ -69,22 +20,48 @@ header img {
 
 header h1 {
     color: steelblue;
+    font-size: 2.5rem;
     font-style: italic;
     text-shadow: 1px 1px 2px steelblue;
 }
 
-ul, ol {
-    margin: 15px;
-    padding: 0 10px;
+h2, h3 {
+    color: maroon;
+    margin: 10px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    width: 245px;
+    margin-right: 20px;
+}
+
+#sidebar1 {
+    float: left;
+}
+
+#sidebar2 {
+    float: right;
+}
+
+section {
+    flex: 1;
+    margin: 0 20px;
+}
+
+aside h2 {
+    color: maroon;
 }
 
 footer {
-	background-color: steelblue;
-	clear: both;
+    background-color: steelblue;
+    clear: both;
+    text-align: center;
+    color: white;
+    padding: 1em 0;
+}
 
-}
-footer p {
-	text-align: center;
-	color: white;
-	padding: 1em 0;
-}
