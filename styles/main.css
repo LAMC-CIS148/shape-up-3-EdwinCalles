@@ -10,7 +10,7 @@ header {
     border-bottom: 2px solid steelblue;
     padding: 10px;
     text-align: center;
-
+}
 
 h1 {
     font-size: 2.5rem;
@@ -62,8 +62,7 @@ ul, ol {
 }
 
 footer {
-	background-color: steel blue;
-	clear: both;
+	background-color: steelblue;
 
 }
 footer p {
