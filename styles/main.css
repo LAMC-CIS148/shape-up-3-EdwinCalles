@@ -60,8 +60,11 @@ aside h2 {
 footer {
     background-color: steelblue;
     clear: both;
+}
+footer p {
     text-align: center;
     color: white;
     padding: 1em 0;
 }
+
 
