@@ -30,11 +30,6 @@ h2, h3 {
     margin: 10px 0;
 }
 
-.content {
-    display: flex;
-    justify-content: space-between;
-}
-
 
 aside h2 {
     color: maroon;
